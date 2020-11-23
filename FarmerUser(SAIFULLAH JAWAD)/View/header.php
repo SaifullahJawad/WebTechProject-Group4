@@ -24,22 +24,22 @@
 
     <tr>
 
-        <td align="left" style="border:0px">  <h1> <img src="img/websiteLogo.png" hieght="100px" width=100px"> Cultivation and Crop Distribution Management System </h1> </td>
+        <td align="left" style="border:0px">  <h1> <img src="../View/img/websiteLogo.png" hieght="70px" width=70px"> Cultivation and Crop Distribution Management System </h1> </td>
         <td style="border:0px; padding-right:15px" align="right"> 
         <?php
 
-            if( isset($_SESSION["isLoggedIn"]) || isset($_COOKIE["loggedInUserName"]))
+            if( isset($_SESSION["loggedInUserName"]) || isset($_COOKIE["loggedInUserName"]))
             {
         ?>
-                Logged in as <a href="dashboard.php"> <?php if(isset($_COOKIE["loggedInUserName"])){echo $_SESSION["name"];}else{echo $_SESSION["name"];} ?> </a> |
-                <a href="logout.php"> Logout </a>
+                Logged in as <a href="../View/dashboard.php"> <?php echo $_SESSION["userName"]; ?> </a> |
+                <a href="../Controller/logout.php"> Logout </a>
 
         <?php
             }
             else
             {
         ?>
-                <a href="publicHome.php"> Home </a> |
+                <a href="../View/publicHome.php"> Home </a> |
                 <a href=""> About Us </a>
                 
         <?php
