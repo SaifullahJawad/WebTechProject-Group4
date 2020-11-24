@@ -1,0 +1,49 @@
+
+
+
+<html>
+<head>
+<style>
+table, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+  <form method="post" action="deletememberaccountcheck.php">
+
+<p>Click the button to remove the first row in the table.</p>
+
+<table id="myTable">
+  <tr>
+    <td>ID</td>
+    <td>NAME</td>
+    <td>EMAIL</td>
+  </tr>
+  <tr>
+    <td>1002</td>
+    <td>Alex</td>
+    <td>alex@gmail.com</td>
+  </tr>
+  <tr>
+    <td>1003</td>
+    <td>Bob</td>
+    <td>bob@yahoo.com</td>
+  </tr>
+  <tr>
+    <td>1004</td>
+    <td>Jesson</td>
+    <td>jesson@hotmail.com</td>
+  </tr>
+</table>
+<br> 
+
+<button onclick="myFunction()">Delete</button>
+<script>
+function myFunction() {
+  document.getElementById("myTable").deleteRow(1);
+}
+</script>
+</form>
+</body>
+</html>
