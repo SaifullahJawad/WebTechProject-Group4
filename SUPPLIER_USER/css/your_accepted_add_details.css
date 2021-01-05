@@ -1,0 +1,29 @@
+
+    table{
+			border-collapse: collapse;
+			border: 1px solid green;
+		}
+	    td{
+
+	    	border-bottom: 1px solid green;
+	    }
+
+	    img{
+
+	    	height: 180px;
+	    	width: 190px;
+	    }
+
+	    .full_body {
+       background-image: url("image/background9.jpeg");
+
+       background-repeat: no-repeat, repeat;
+
+       background-size: cover;
+      
+       } 
+
+       fieldset{
+
+       	background: #DCDCDC;
+       }

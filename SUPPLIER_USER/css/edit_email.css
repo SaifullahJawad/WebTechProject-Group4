@@ -1,0 +1,27 @@
+      
+      table{
+			border-collapse: collapse;
+			border: 1px solid green;
+		}
+	    td{
+
+	    	border-bottom: 1px solid green;
+	    }
+
+	    span {
+
+	    	color: black;
+	    }
+	    .middle{
+
+	    	background-image: url("image/background11.jpg");
+
+            background-repeat: no-repeat, repeat;
+
+            background-size: cover;
+	    }
+
+	    fieldset{
+
+	    	background: #B0C4DE;
+	    }

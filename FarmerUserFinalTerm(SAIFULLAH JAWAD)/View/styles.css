@@ -1,0 +1,87 @@
+
+
+    label.darkModeLabel
+    {
+        position: absolute;
+        right: 330px;
+        top: 60px;
+    }
+
+
+    label.darkModeToggler
+    {
+        position: absolute;
+        width: 45px;
+        height: 22px;
+        right: 270px;
+        top: 57px;
+        border: 2px solid;
+        border-radius: 20px;
+    }
+
+    label.darkModeToggler::before
+    {
+        position: absolute;
+        content: '';
+        width:20px;
+        height: 20px;
+        left: 1px;
+        top: 1px;
+        border-radius: 50%;
+        background: black;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+
+    label.darkModeToggler.active::before
+    {
+        left: 24px;
+        background: white;
+    }
+
+    body.dark
+    {
+        background: black;
+        color: white;
+    }
+
+
+
+
+    .message
+    {
+        position: absolute;
+        right: 570px;
+        top: 150px;
+    }
+
+    .searchBox
+    {
+        position: absolute;
+        right: 100px;
+        top: 160px;
+    }
+
+    .searchLabel
+    {
+        position: absolute;
+        right: 270px;
+        top: 162px;
+    }
+
+    .welcomeHeading
+    {
+        position: absolute;
+        right: 500px;
+        top: 140px;
+
+    }
+
+    .postAdNow
+    {
+        position: absolute;
+        right: 500px;
+        top: 250px;
+
+    }
+    

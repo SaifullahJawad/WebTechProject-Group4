@@ -1,0 +1,32 @@
+    
+
+    table{
+			border-collapse: collapse;
+			border: 1px solid green;
+		}
+	    td{
+
+	    	border-bottom: 1px solid green;
+	    }
+
+	    span {
+
+	    	color: red;
+	    }
+	    .middle_body{
+
+	    	background-image: url("image/background19.jfif");
+
+            background-repeat: no-repeat, repeat;
+
+            background-size: cover;
+      
+	    }
+	    fieldset{
+
+	    	background: #F5F5F5;
+	    }
+	    legend{
+
+	    	color: black;
+	    }
